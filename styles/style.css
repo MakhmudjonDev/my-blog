@@ -1,0 +1,159 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  font-family: "Red Hat Display";
+}
+.container header {
+  display: flex;
+  width: 100%;
+  margin-top: 30px;
+}
+.container header nav {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  align-items: center;
+}
+.container header nav .logo {
+  width: 20%;
+}
+.container header nav .logo img {
+  transition: 0.2s;
+}
+.container header nav .logo img:hover {
+  transform: scale(1.2);
+}
+.container header nav ul {
+  list-style: none;
+  display: flex;
+  width: 70%;
+  justify-content: space-evenly;
+  font-family: "Roboto";
+  font-size: 24px;
+}
+.container header nav ul a {
+  text-decoration: none;
+  color: #7E7F86;
+  transition: 0.2s;
+}
+.container header nav ul a:hover {
+  color: #21232D;
+}
+.container header button {
+  width: 40px;
+  height: 40px;
+  margin-left: 15%;
+  border-radius: 50%;
+  border: none;
+  transition: 0.2s;
+}
+.container header button:hover {
+  transform: scale(1.2);
+}
+.container header button img {
+  width: 55%;
+}
+.container main {
+  display: flex;
+  width: 100%;
+  margin: 30px 0;
+}
+.container main .description {
+  padding: 30px 0;
+  color: #25202F;
+}
+.container main .description .desc-text {
+  margin-bottom: 50px;
+}
+.container main .description .desc-text p {
+  font-size: 24px;
+}
+.container main .description .desc-text p:first-child {
+  color: #666666;
+}
+.container main .description .desc-text h1 {
+  font-size: 60px;
+}
+.container main .description .desc-text p:last-child {
+  font-weight: 400;
+  line-height: 32px;
+}
+.container main .description .btn-talk {
+  color: #fff;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  background-color: #8643DC;
+  padding: 14px 48px;
+  border: none;
+  border-radius: 100px;
+  transition: 0.2s;
+}
+.container main .description .btn-talk:hover {
+  transform: scale(1.1);
+  color: #21232D;
+}
+.container h3 {
+  font-size: 18px;
+  color: #8643DC;
+  margin-bottom: 10px;
+}
+.container .hd {
+  width: 50px;
+  border: #8643DC 1px solid;
+}
+.container .services {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.container .services .service-desc {
+  margin-bottom: 40px;
+}
+.container .services .service-desc p {
+  font-size: 36px;
+  margin: 15px 0;
+  font-weight: 700;
+}
+.container .services .items {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.container .services .items .item {
+  flex-shrink: 0;
+  flex-grow: 1;
+  max-width: 30%;
+}
+.container .services .items .item .item-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.container .services .items .item .item-title img {
+  transition: 0.2s;
+}
+.container .services .items .item .item-title img:hover {
+  transform: scale(1.1);
+}
+.container .services .items .item .item-title h2 {
+  display: block;
+  width: 60%;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  margin-right: 30px;
+}
+.container .services .items .item p {
+  font-size: 16px;
+  color: #47444E;
+}/*# sourceMappingURL=style.css.map */
